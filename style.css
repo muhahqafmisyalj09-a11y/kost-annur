@@ -1,8 +1,10 @@
 /* =====================================================
    KOST AN-NUR — style.css (satu file, sudah dirapikan)
+   Tema terang saja (dark mode dihapus)
    ===================================================== */
 
 :root{
+  color-scheme: light;
   --cream:        #FBF1E4;
   --cream-deep:   #F3E0CB;
   --rose:         #D9577E;
@@ -16,34 +18,6 @@
   --shadow:       0 18px 40px -20px rgba(74,44,56,0.35);
   --radius-lg: 2px 28px 2px 28px;
   --radius-sm: 2px 14px 2px 14px;
-}
-:root:not([data-theme="light"]){
-  @media (prefers-color-scheme: dark){
-    --cream:        #211015;
-    --cream-deep:   #2B161D;
-    --rose:         #E58AA8;
-    --rose-deep:    #F0AFC4;
-    --rose-soft:    #3A1E27;
-    --plum:         #F5E3E8;
-    --plum-soft:    #D1AAB3;
-    --gold:         #D9B685;
-    --card:         #2A151C;
-    --border:       rgba(243,227,232,0.14);
-    --shadow:       0 18px 40px -20px rgba(0,0,0,0.6);
-  }
-}
-:root[data-theme="dark"]{
-  --cream:        #211015;
-  --cream-deep:   #2B161D;
-  --rose:         #E58AA8;
-  --rose-deep:    #F0AFC4;
-  --rose-soft:    #3A1E27;
-  --plum:         #F5E3E8;
-  --plum-soft:    #D1AAB3;
-  --gold:         #D9B685;
-  --card:         #2A151C;
-  --border:       rgba(243,227,232,0.14);
-  --shadow:       0 18px 40px -20px rgba(0,0,0,0.6);
 }
 
 /* ---------- DASAR ---------- */
