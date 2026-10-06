@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamar — Kost An-nur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tambahan.css">
+</head>
+<body class="page-sub">
+<header id="siteHeader" class="site-header">
+  <nav>
+    <a href="index.html" class="brand">Kost <span>An-nur</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link">Beranda</a>
+
+      <div class="has-dd">
+        <a href="kamar.html" class="nav-link active">Kamar</a>
+        <button type="button" class="dd-arrow" aria-label="Buka submenu Kamar" aria-expanded="false"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="dd-menu">
+          <a href="kamar.html#kamar">Tipe &amp; Harga</a>
+          <a href="kamar.html#Fasilitas">Fasilitas</a>
+          <a href="kamar.html#galeri">Galeri Foto</a>
+        </div>
+      </div>
+
+      <div class="has-dd">
+        <a href="kontak.html" class="nav-link">Kontak</a>
+        <button type="button" class="dd-arrow" aria-label="Buka submenu Kontak" aria-expanded="false"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="dd-menu">
+          <a href="kontak.html#kontak">Hubungi Kami</a>
+          <a href="kontak.html#lokasi">Lokasi &amp; Peta</a>
+          <a href="kontak.html#faq">Peraturan &amp; FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-cta">
+      <a href="https://wa.me/6281256362606" target="_blank" rel="noopener" class="btn btn-solid">Pesan Sekarang</a>
+      <button class="burger" id="burgerBtn" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-banner" style="--banner-img:url('kamar keseluruhan.jpeg')">
+  <div class="container">
+    <p class="eyebrow">Kost An-nur</p>
+    <h1>Kamar</h1>
+    <p>Tiga tipe kamar dengan harga jelas, lengkap dengan foto dan perbandingan.</p>
+  </div>
+</section>
+
+<section id="kamar">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow centered">Tipe Kamar</p>
+      <h2>Tipe kamar &amp; harga</h2>
+      <p>Harga belum termasuk fasilitas dasar seperti listrik &amp; gas.</p>
+    </div>
+    <div class="room-grid reveal">
+<div class="room-card">
+  <div class="room-media"><span class="room-tag">Ekonomis</span><div class="photo-slot"><img src="kamarkecilA.jpeg" alt="Kamar Kipas Reguler" loading="lazy"></div></div>
+  <div class="room-body">
+    <h3 class="room-name">Kamar Kipas Reguler (Kecil)</h3>
+    <p class="room-price">Rp500rb <small>/ bulan</small></p>
+    <p class="room-desc">Kamar ringkas dengan kipas angin, pilihan paling terjangkau untuk Anda yang mengutamakan kenyamanan dasar dengan anggaran hemat.</p>
+    <ul class="room-feats"><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kasur single &amp; lemari</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kamar mandi dalam + kipas</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Wi-Fi</li></ul>
+    <div class="room-actions">
+      <button type="button" class="btn room-gallery-btn" data-title="Kamar Kipas Reguler (Kecil)" data-images="kamarkecilB.png|kamarkecilC.png|kamarkecilD.png">Lihat Foto Lainnya</button>
+      <a href="https://wa.me/6281256362606?text=Halo%2C%20apakah%20Kamar%20Kipas%20Reguler%20%28Kecil%29%20di%20Kost%20An-nur%20masih%20tersedia%3F" target="_blank" rel="noopener" class="btn btn-solid">Pesan Kamar Ini</a>
+    </div>
+  </div>
+</div><div class="room-card featured">
+  <div class="room-media"><span class="room-tag">Terlaris</span><div class="photo-slot"><img src="kamarbesard.jpeg" alt="Kamar Kipas Luas" loading="lazy"></div></div>
+  <div class="room-body">
+    <h3 class="room-name">Kamar Kipas Luas (Besar)</h3>
+    <p class="room-price">Rp800rb <small>/ bulan</small></p>
+    <p class="room-desc">Ruangan lebih luas dengan fasilitas yang sama seperti kamar kecil, cocok jika Anda butuh ruang gerak dan tempat penyimpanan lebih leluasa.</p>
+    <ul class="room-feats"><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kasur single &amp; lemari</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kamar mandi dalam + kipas</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Wi-Fi</li></ul>
+    <div class="room-actions">
+      <button type="button" class="btn room-gallery-btn" data-title="Kamar Kipas Luas (Besar)" data-images="kamarbesarb.jpeg|kamarbesarc.jpeg|kamarbesare.jpeg">Lihat Foto Lainnya</button>
+      <a href="https://wa.me/6281256362606?text=Halo%2C%20apakah%20Kamar%20Kipas%20Luas%20%28Besar%29%20di%20Kost%20An-nur%20masih%20tersedia%3F" target="_blank" rel="noopener" class="btn btn-solid">Pesan Kamar Ini</a>
+    </div>
+  </div>
+</div><div class="room-card">
+  <div class="room-media"><span class="room-tag">Kamar AC</span><div class="photo-slot"><img src="kamaracA.jpeg" alt="Kamar AC" loading="lazy"></div></div>
+  <div class="room-body">
+    <h3 class="room-name">Kamar AC</h3>
+    <p class="room-price">Rp1.200rb <small>/ bulan</small></p>
+    <p class="room-desc">Kamar ber-AC untuk suhu yang lebih sejuk sepanjang hari, lengkap dengan kamar mandi dalam dan Wi-Fi.</p>
+    <ul class="room-feats"><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kasur single &amp; lemari</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kamar mandi dalam + AC</li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Wi-Fi</li></ul>
+    <div class="room-actions">
+      <button type="button" class="btn room-gallery-btn" data-title="Kamar AC" data-images="kamaracA.jpeg|kamaracB.jpeg|kamaracC.jpeg">Lihat Foto Lainnya</button>
+      <a href="https://wa.me/6281256362606?text=Halo%2C%20apakah%20Kamar%20AC%20di%20Kost%20An-nur%20masih%20tersedia%3F" target="_blank" rel="noopener" class="btn btn-solid">Pesan Kamar Ini</a>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+
+<section id="fasilitas">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow centered">Fasilitas</p>
+      <h2>Semua yang Anda butuhkan, sudah tersedia</h2>
+      <p>Fasilitas bersama yang bisa dinikmati seluruh penghuni setiap hari.</p>
+    </div>
+    <div class="fac-grid reveal"><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg><span>Wi-Fi</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="10" rx="1"/><path d="M7 20h10M9 16v4M15 16v4"/></svg><span>AC/Kipas di Setiap Kamar</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 17h14M6 17V9l6-4 6 4v8M9 17v-4h6v4"/></svg><span>Area Parkir</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 3v18M4 9h5M4 15h5"/></svg><span>Lemari</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Akses 16 Jam</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a5 5 0 0 0-5 5c0 3 5 10 5 10s5-7 5-10a5 5 0 0 0-5-5z"/><circle cx="12" cy="7" r="1.6"/></svg><span>Dekat Minimarket</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v3M16 4v3"/></svg><span>Dapur Bersama</span></div><div class="fac-item"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4.5 8-11.5V5l-8-3-8 3v5.5C4 17.5 12 22 12 22z"/></svg><span>CCTV</span></div></div>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow centered">Galeri Foto</p>
+      <h2>Suasana kamar &amp; lingkungan</h2>
+      <p>Klik salah satu foto untuk melihat lebih besar.</p>
+    </div>
+    <div class="gal-grid reveal" id="galGrid"><div class="gal-item" data-label="Tampilan depan rumah"><img src="TAMPILAN DEPAN RUMAH.jpeg" alt="Tampilan depan rumah" loading="lazy"></div><div class="gal-item" data-label="Teras lantai 1"><img src="TERAS.jpeg" alt="Teras lantai 1" loading="lazy"></div><div class="gal-item" data-label="Teras lantai 2"><img src="teraslt2.jpeg" alt="Teras lantai 2" loading="lazy"></div><div class="gal-item" data-label="Area parkir"><img src="parkiran.jpeg" alt="Area parkir" loading="lazy"></div><div class="gal-item" data-label="Dapur bersama lantai 1"><img src="dapurlt1.jpeg" alt="Dapur bersama lantai 1" loading="lazy"></div><div class="gal-item" data-label="Dapur bersama lantai 2"><img src="dapurlt2.jpeg" alt="Dapur bersama lantai 2" loading="lazy"></div><div class="gal-item" data-label="Lantai 1"><img src="lt1.jpeg" alt="Lantai 1" loading="lazy"></div><div class="gal-item" data-label="Lantai 2"><img src="lt2.jpeg" alt="Lantai 2" loading="lazy"></div></div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container reveal">
+    <h2>Sudah ada kamar yang cocok?</h2>
+    <p>Tanyakan ketersediaan kamar lewat WhatsApp, kami balas secepatnya.</p>
+    <a href="https://wa.me/6281256362606" target="_blank" rel="noopener" class="btn btn-solid">Tanya Ketersediaan</a>
+  </div>
+</section>
+
+<a href="https://wa.me/6281256362606" target="_blank" rel="noopener" class="fab">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  Hubungi Kami
+</a>
+
+<footer class="site-footer">
+  <div class="container foot-grid">
+    <div>
+      <a href="index.html" class="brand">Kost <span>An-nur</span></a>
+      <p>Hunian nyaman, rasa rumah. Kost khusus putri dan pasutri di Makassar.</p>
+    </div>
+    <div>
+      <strong>Kontak</strong>
+      <a href="https://wa.me/6281256362606" target="_blank" rel="noopener">WhatsApp 1: 0812-5636-2606</a>
+      <a href="https://wa.me/6282352627795 target="_blank" rel="noopener">WhatsApp 2: 0823-5262-7795</a>
+    </div>
+  </div>
+  <p class="foot-copy">&copy; <span id="year"></span> Kost <span>An-nur</span>. Dibuat dengan hangat untuk Anda yang mencari rumah kedua.</p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-box">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup galeri">TUTUP ✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Foto sebelumnya">&#10094;</button>
+    <div class="lightbox-main"><img id="lightboxImg" src="" alt="Foto galeri"></div>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Foto berikutnya">&#10095;</button>
+    <div class="lightbox-info"><div class="lightbox-cap" id="lightboxCap"></div><div class="lightbox-counter" id="lightboxCounter"></div></div>
+    <div class="lightbox-thumbs" id="lightboxThumbs"></div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>

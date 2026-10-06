@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokasi & Kontak — Kost An-nur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tambahan.css?v=2">
+</head>
+<body class="page-sub">
+<header id="siteHeader" class="site-header">
+  <nav>
+    <a href="index.html" class="brand">Kost <span>An-nur</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="nav-link">Beranda</a>
+
+      <div class="has-dd">
+        <a href="kamar.html" class="nav-link">Kamar</a>
+        <button type="button" class="dd-arrow" aria-label="Buka submenu Kamar" aria-expanded="false"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="dd-menu">
+          <a href="kamar.html#kamar">Tipe &amp; Harga</a>
+          <a href="kamar.html#perbandingan">Perbandingan</a>
+          <a href="kamar.html#galeri">Galeri Foto</a>
+        </div>
+      </div>
+
+      <div class="has-dd">
+        <a href="kontak.html" class="nav-link active">Kontak</a>
+        <button type="button" class="dd-arrow" aria-label="Buka submenu Kontak" aria-expanded="false"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="dd-menu">
+          <a href="kontak.html#kontak">Hubungi Kami</a>
+          <a href="kontak.html#lokasi">Lokasi &amp; Peta</a>
+          <a href="kontak.html#faq">Peraturan &amp; FAQ</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-cta">
+      <a href="https://wa.me/6281256362606" target="_blank" rel="noopener" class="btn btn-solid">Pesan Sekarang</a>
+      <button class="burger" id="burgerBtn" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-banner" style="--banner-img:url('maps.jpeg')">
+  <div class="container">
+    <p class="eyebrow">Kost An-nur</p>
+    <h1>Lokasi &amp; Kontak</h1>
+    <p>Hubungi kami, atau datang langsung untuk survei.</p>
+  </div>
+</section>
+
+<section id="kontak">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow centered">Kontak</p>
+      <h2>Hubungi kami</h2>
+      <p>Ada pertanyaan atau ingin survei langsung? Kirim pesan atau hubungi kami via WhatsApp.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-card">
+        <div class="contact-row"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><div><small>WhatsApp</small><a href="https://wa.me/6281256362606" target="_blank" rel="noopener">+62 812-5636-2606</a></div></div>
+        <div class="contact-row"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><div><small>WhatsApp</small><a href="https://wa.me/6282352627795" target="_blank" rel="noopener">+62 823-5262-7795</a></div></div>
+        <div class="contact-row"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg><div><small>Telepon</small><a href="tel:+6281234567890">+62 812-3456-7890</a></div></div>
+        <a href="https://wa.me/6281256362606" target="_blank" rel="noopener" class="btn btn-solid btn-block">Chat via WhatsApp</a>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Nama Anda" required>
+        <input type="tel" placeholder="Nomor WhatsApp" required>
+        <textarea rows="4" placeholder="Pesan Anda (mis. tanya ketersediaan kamar)" required></textarea>
+        <button type="submit" class="btn btn-solid btn-block">Kirim Pesan</button>
+        <p class="form-note" id="formNote">Pesan akan diarahkan ke WhatsApp kami.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="lokasi" class="bg-deep">
+  <div class="container loc-grid reveal">
+    <div class="loc-copy">
+      <p class="eyebrow">Lokasi</p>
+      <h2 class="about-title">Strategis &amp; mudah dijangkau</h2>
+      <p>Berada di lingkungan yang dekat dengan pusat kota, hanya beberapa menit dari kampus, Rumah Sakit Tadjuddin, dan minimarket.</p>
+      <div class="loc-addr">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 22s8-9 8-13a8 8 0 1 0-16 0c0 4 8 13 8 13z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <div><strong>Kost An-nur</strong>Jl. Pajjaiang Lorong 2, Daya, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan 90241</div>
+      </div>
+      <a href="https://maps.app.goo.gl/pC8smtTYYidhm6To9" target="_blank" rel="noopener" class="btn btn-solid">Buka di Google Maps</a>
+    </div>
+    <div class="map-box">
+      <svg class="map-pin" width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M12 22s8-9 8-13a8 8 0 1 0-16 0c0 4 8 13 8 13z"/></svg>
+      <iframe class="map-frame" src="https://www.google.com/maps?q=Jl.+Pajjaiang+Lorong+2,+Daya,+Kec.+Biringkanaya,+Kota+Makassar,+Sulawesi+Selatan+90241&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Lokasi Kost An-nur"></iframe>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow centered">Peraturan &amp; FAQ</p>
+      <h2>Pertanyaan yang sering ditanyakan</h2>
+      <p>Jawaban singkat sebelum Anda menghubungi kami.</p>
+    </div>
+    <div class="faq-list reveal"><details><summary>Siapa yang boleh tinggal di sini?</summary><p>Kost An-Nur khusus untuk putri dan pasangan suami istri.</p></details><details><summary>Apa saja yang termasuk dalam harga?</summary><p>Harga sewa per bulan belum termasuk listrik dan gas. Rinciannya bisa ditanyakan langsung kepada kami.</p></details><details><summary>Bagaimana cara survei kamar?</summary><p>Hubungi kami lewat WhatsApp, lalu kita atur jadwal kunjungan.</p></details><details><summary>Bagaimana aturan tamu dan jam malam?</summary><p>Tamu hanya boleh perempuan dan menginap maksmimal 1 malam.pagar di kunci tepat pada pukul 10.00 MALAM</p></details><details><summary>Bagaimana cara pembayaran sewa?</summary><p>Untuk memesan kamar, silakan bayar uang panjar (DP) minimal Rp100.000 sebagai tanda jadi. Pembayaran bisa dilakukan melalui transfer atau tunai. Untuk sewa bulanan, pembayaran berikutnya dilakukan tepat 1 bulan setelah tanggal masuk, paling lambat di minggu pertama bulan tersebut.</p></details></div>
+  </div>
+</section>
+
+<a href="https://wa.me/6281256362606" target="_blank" rel="noopener" class="fab">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  Hubungi Kami
+</a>
+
+<footer class="site-footer">
+  <div class="container foot-grid">
+    <div>
+      <a href="index.html" class="brand">Kost <span>An-nur</span></a>
+      <p>Hunian nyaman, rasa rumah. Kost khusus putri dan pasutri di Makassar.</p>
+    </div>
+    <div>
+      <strong>Kontak &amp; Lokasi</strong>
+      <a href="kontak.html#kontak">Hubungi Kami</a>
+      <a href="kontak.html#lokasi">Lokasi &amp; Peta</a>
+    </div>
+  </div>
+  <p class="foot-copy">&copy; <span id="year"></span> Kost <span>An-nur</span>. Dibuat dengan hangat untuk Anda yang mencari rumah kedua.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
